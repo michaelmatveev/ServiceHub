@@ -1,0 +1,31 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EventHubReader.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EVENTHUBPOLICYNAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EVENTHUBPOLICYKEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EVENTHUBNAMESPACE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EVENTHUBNAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EVENTHUBPARTITIONCOUNT" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="STORAGECONNECTION" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Endpoint=sb://cloud-counters.servicebus.windows.net/;SharedAccessKeyName=ReceiveRule;SharedAccessKey=xHvbo7AYY3LkGMgf0/ZH18VfTwzc99MdskOnZrwUdsU=&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Endpoint=sb://cloud-counters.servicebus.windows.net/;SharedAccessKeyName=ReceiveRule;SharedAccessKey=xHvbo7AYY3LkGMgf0/ZH18VfTwzc99MdskOnZrwUdsU=</Value>
+    </Setting>
+    <Setting Name="TABLENAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MyTotalData</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
